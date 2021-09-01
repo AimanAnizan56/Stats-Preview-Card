@@ -1,4 +1,13 @@
 :root {
-	--white: hsl(0, 0%, 100%);
-	--black: hsl(0, 0%, 0%);
+    --black: hsl(0, 0%, 0%);
+
+    // Primary
+    --verydarkblue: hsl(233, 47%, 7%);
+    --darksaturatedblue: hsl(244, 38%, 16%);
+    --softviolet: hsl(277, 64%, 61%);
+
+    // Neutral
+    --white: hsl(0, 0%, 100%);
+    --whitemain: hsla(0, 0%, 100%, 0.75);
+    --whitestat: hsla(0, 0%, 100%, 0.6);
 }
