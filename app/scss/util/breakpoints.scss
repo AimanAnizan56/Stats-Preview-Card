@@ -4,13 +4,15 @@
 
 $breakpoints-up: (
     'mobile': '23.4375em',
-    'tablet': '56.75em',
+    // 'tablet': '56.75em',
+    'tablet': '65em',
     'desktop': '90em',
 );
 
 $breakpoints-down: (
     'mobile': '23.375em',
-    'tablet': '56.6875',
+    // 'tablet': '56.6875em',
+    'tablet': '64.9375em',
     'desktop': '89.9375em',
 );
 
