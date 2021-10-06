@@ -1,14 +1,17 @@
 // - Mobile: 375px
+// - tablet: 908px
 // - Desktop: 1440px
 
 $breakpoints-up: (
-    'mobile': '25em',
-    'desktop': '96em',
+    'mobile': '23.4375em',
+    'tablet': '56.75em',
+    'desktop': '90em',
 );
 
 $breakpoints-down: (
-    'mobile': '24.9333em',
-    'desktop': '95.9333em',
+    'mobile': '23.375em',
+    'tablet': '56.6875',
+    'desktop': '89.9375em',
 );
 
 @mixin breakpoint($size) {
