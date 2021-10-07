@@ -1,16 +1,21 @@
 @use '../util' as *;
 
 .card {
-    width: 100%;
-    height: rem(446);
-    background: var(--darksaturatedblue);
+    // width: 100%;
+    width: rem(327);
+    height: rem(780);
+    margin: 0 auto;
     margin-top: rem(88);
+    margin-bottom: rem(20);
+    background: var(--darksaturatedblue);
     display: flex;
     flex-direction: column;
     border-radius: rem(5);
     overflow: hidden;
 
     @include breakpoint(tablet) {
+        width: 100%;
+        height: rem(446);
         flex-direction: row-reverse;
         margin-top: rem(177);
     }
@@ -58,6 +63,52 @@
 
         span {
             color: var(--softviolet);
+        }
+    }
+
+    &__description {
+        color: var(--whitemain);
+        margin: 0 auto;
+        margin-top: rem(22);
+        line-height: rem(25);
+        max-width: rem(257);
+        text-align: center;
+
+        @include breakpoint(tablet) {
+            text-align: left;
+            margin-left: rem(72);
+            max-width: rem(385);
+        }
+    }
+
+    &__stat {
+        margin-top: rem(47);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        height: rem(214);
+
+        @include breakpoint(tablet) {
+            text-align: left;
+            flex-direction: row;
+            margin-top: rem(71);
+            margin-left: rem(72);
+            max-width: rem(353);
+        }
+
+        &-num {
+            margin-bottom: rem(4);
+            font-size: rem(24);
+            font-weight: 700;
+        }
+        &-name {
+            color: var(--whitestat);
+            text-transform: uppercase;
+            font-size: rem(13);
+            @include breakpoint(tablet) {
+                font-family: var(--font-lexend);
+            }
         }
     }
 }
