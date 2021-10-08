@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [Stats Preview Card with Sassy](https://www.frontendmentor.io/solutions/stats-preview-card-with-sassy-Q4Q44vbE4)
 -   Live Site URL: [Frontend Mentor | Stats preview card component](https://aimananizan56.github.io/Stats-Preview-Card/)
 
 ## My process
