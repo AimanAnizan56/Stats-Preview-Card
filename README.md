@@ -86,7 +86,7 @@ I found that flexbox can help me to create website layout. So, I think I should 
 
 -   [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This website help me a lot to understand more about flexbox. The guide involve flexbox basic, terms and other that useful for the beginner.
 -   [background-blend-mode](https://css-tricks.com/almanac/properties/b/background-blend-mode/) - Since in this challenge need me to add color to the image, I found this website help me to get better understanding about background blend.
--   [background-image - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) - MDN WEb Docs providing lot of information about website and I think this help a lot.
+-   [background-image - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) - MDN Web Docs providing lot of information about website and I think this help a lot.
 
 ## Author
 
